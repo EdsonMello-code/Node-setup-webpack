@@ -1,0 +1,23 @@
+{
+  "name": "format",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@webpack-cli/generators": "^2.0.0",
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "node-polyfill-webpack-plugin": "^1.1.0",
+    "prettier": "2.2.1",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "scripts": {
+    "build": "webpack --config=webpack.config.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
